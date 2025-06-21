@@ -1,26 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
+import { JSX } from 'react';
+import { Header, Hero, Skills, Experience, Projects, Contact } from './components';
 import './App.css';
 
-function App() {
+/**
+ * Main application component for Pedro Sales portfolio
+ * @component
+ * @returns {JSX.Element} The complete portfolio application
+ */
+export default function App(): JSX.Element {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <Header />
+      <main className="main-content">
+        <Hero />
+        <Skills />
+        <Experience />
+        <Projects />
+        <Contact />
+      </main>
     </div>
   );
 }
-
-export default App;

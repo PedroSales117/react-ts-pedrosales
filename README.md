@@ -1,46 +1,121 @@
-# Getting Started with Create React App
+# Pedro Sales Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive portfolio website built with React and TypeScript, showcasing my professional experience, skills, and projects as a Sr. Software Developer & AI Solutions Specialist.
 
-## Available Scripts
+## 🚀 Features
 
-In the project directory, you can run:
+- **Modern Design**: Clean, professional interface with smooth animations and gradient effects
+- **Fully Responsive**: Optimized for all devices and screen sizes
+- **Interactive Components**: Smooth scrolling, hover effects, and dynamic content
+- **Performance Optimized**: Fast loading times and efficient rendering
+- **Accessibility**: Semantic HTML and ARIA labels for better accessibility
+- **Type Safe**: Built with TypeScript for improved developer experience and code reliability
 
-### `npm start`
+## 🛠️ Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **React 18.2** - UI library
+- **TypeScript 5.4** - Type safety
+- **Lucide React** - Modern icon library
+- **CSS3** - Styling with custom properties and animations
+- **Clean Architecture** - Following SOLID principles
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 📁 Project Structure
 
-### `npm test`
+```
+src/
+├── components/
+│   ├── Header.tsx       # Navigation header
+│   ├── Hero.tsx         # Hero section with intro
+│   ├── Skills.tsx       # Technical skills showcase
+│   ├── Experience.tsx   # Work experience timeline
+│   ├── Projects.tsx     # GitHub projects grid
+│   ├── Contact.tsx      # Contact information
+│   └── index.ts         # Central exports
+├── styles/
+│   └── *.css           # Component-specific styles
+├── App.tsx             # Main application component
+├── App.css             # Global application styles
+└── index.tsx           # Application entry point
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚦 Getting Started
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js 18 LTS or higher
+- npm or yarn package manager
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository:
+```bash
+git clone https://github.com/PedroSales117/portfolio.git
+cd portfolio
+```
 
-### `npm run eject`
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+3. Start the development server:
+```bash
+npm start
+# or
+yarn start
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Building for Production
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+npm run build
+# or
+yarn build
+```
 
-## Learn More
+This builds the app for production to the `build` folder.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🎨 Customization
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Colors
+
+The color scheme can be customized by modifying the CSS variables in `App.css`:
+
+```css
+:root {
+  --bg-primary: #0a0a0f;
+  --bg-secondary: #1a1a2e;
+  --accent-primary: #6366f1;
+  --accent-secondary: #8b5cf6;
+  --accent-tertiary: #ec4899;
+  /* ... */
+}
+```
+
+### Content
+
+Update the component files in `src/components/` to modify:
+- Personal information
+- Work experience
+- Skills
+- Projects
+- Contact details
+
+## 📱 Contact
+
+- **Email**: pedrohenrisales@gmail.com
+- **LinkedIn**: [/in/pedrosales117](https://www.linkedin.com/in/pedrosales117/)
+- **GitHub**: [@PedroSales117](https://github.com/PedroSales117)
+- **WhatsApp**: +55 11 93010-5237
+
+## 📄 License
+
+This project is open source and available under the MIT License.
+
+---
+
+Built with ❤️ by Pedro Sales

@@ -1,6 +1,6 @@
 /**
- * Main application styles
- * Handles overall layout and background animations
+ * Global styles for the portfolio application
+ * Uses CSS variables for theming and consistent design
  */
 
 :root {
@@ -29,7 +29,7 @@ html {
 }
 
 body {
-  font-family: 'Kantumruy Pro', sans-serif;
+  font-family: -apple-system, 'Kantumruy Pro', sans-serif;
   background-color: var(--bg-primary);
   color: var(--text-primary);
   line-height: 1.6;
