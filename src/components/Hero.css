@@ -138,6 +138,7 @@
 }
 
 .hero-button.secondary {
+  font-family: 'Kantumruy Pro', sans-serif;
   background: var(--bg-card);
   color: var(--text-primary);
   border: 1px solid var(--border-color);
