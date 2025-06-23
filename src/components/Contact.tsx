@@ -33,21 +33,21 @@ export const Contact: React.FC = () => {
     {
       icon: <Mail size={24} />,
       title: 'Email',
-      value: 'pedrohenrisales@gmail.com',
+      value: 'pedrosales@gmail.com',
       action: () => handleContact('email'),
       color: 'primary'
     },
     {
       icon: <MessageCircle size={24} />,
       title: 'WhatsApp',
-      value: '+55 11 93010-5237',
+      value: '(11) 93010-5237',
       action: () => handleContact('whatsapp'),
       color: 'secondary'
     },
     {
       icon: <Linkedin size={24} />,
       title: 'LinkedIn',
-      value: '/in/pedrosales117',
+      value: 'Pedro Sales',
       action: () => handleContact('linkedin'),
       color: 'tertiary'
     },
