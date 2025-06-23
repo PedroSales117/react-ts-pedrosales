@@ -73,7 +73,7 @@ export const Contact: React.FC = () => {
         <div className="contact-content">
           <div className="contact-intro">
             <h3 className="contact-intro-title">
-              Open to New Opportunities
+              Always seeking for New Horizons
             </h3>
             <p className="contact-intro-text">
               I'm always interested in hearing about new projects and opportunities. 
@@ -83,7 +83,7 @@ export const Contact: React.FC = () => {
             
             <div className="availability-badge">
               <span className="availability-dot"></span>
-              Available for freelance and full-time positions
+              Available for contact
             </div>
           </div>
 
