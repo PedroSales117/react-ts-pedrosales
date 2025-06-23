@@ -37,7 +37,7 @@ export const Hero: React.FC = () => {
           </h2>
           
           <p className="hero-description">
-            Passionate Back-end Developer & AI Engineer with over 3 years of experience 
+            Passionate Back-end Developer & AI Engineer with over 5 years of experience 
             creating innovative solutions in Conversational AI, Cloud Engineering, and 
             modern software architecture.
           </p>
