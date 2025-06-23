@@ -156,6 +156,7 @@
 }
 
 .contact-title {
+  font-family: 'Kantumruy Pro', sans-serif;
   font-size: 0.875rem;
   color: var(--text-secondary);
   margin-bottom: 0.25rem;

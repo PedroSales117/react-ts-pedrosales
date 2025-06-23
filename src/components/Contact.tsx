@@ -33,7 +33,7 @@ export const Contact: React.FC = () => {
     {
       icon: <Mail size={24} />,
       title: 'Email',
-      value: 'pedrohenrisales<br/>@gmail.com',
+      value: 'pedrohenrisales@gmail.com',
       action: () => handleContact('email'),
       color: 'primary'
     },
